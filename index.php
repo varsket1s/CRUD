@@ -24,8 +24,7 @@ require_once ("../crud/php/component.php");
         <div class="d-flex justify-content-center">
             <form action="" method="post" class="w-50">
                 <div class="pt-2">
-<?php  inputElement();
-inputElement();
+<?php  inputElement("<i class ='fas fa-book'></i>", "ProjectName", "Project_name", "");
 ?>
                 </div>
             </form>
